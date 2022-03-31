@@ -3,9 +3,8 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { RiShoppingCartLine } from 'react-icons/ri';
 import '../../Style/header.css';
-import TrybeLogo from '../../image/trybe-logo white.png';
 import CartCounter from '../CartCounter';
-import { MainHeader, LinkStyle, Logo, SearchInput } from '../../Style/StyledComponent';
+import { MainHeader, LinkStyle, SearchInput } from '../../Style/StyledComponent';
 
 class index extends React.Component {
   render() {
@@ -15,11 +14,7 @@ class index extends React.Component {
       <header className="header">
         <LinkStyle href="/">
           <MainHeader>
-            Trybe-Libre
-            <Logo
-              alt="Logo trybe"
-              src={ TrybeLogo }
-            />
+            Online Store
           </MainHeader>
         </LinkStyle>
         <div className="container-search">
